@@ -1,0 +1,54 @@
+WEB-ul are mai multe elemente:
+	-protocol: HTTP(High text transmision protocol), HTTPS(High text transmision protocol secure);
+	-DNS(domain-name-system): Schimba ip-ul sytului in nume si invers. ex: 192.211.5.7 -> google.com;
+	-port;
+	-front end: Interfata;
+	-back end: partea programata;
+
+
+HTTP SI HTTPS:
+
+HTTP metods:
+  -GET/request
+  -POST
+  -PUT
+  -DELETE
+
+HTTP status:
+
+200: ok
+401: neautorizat
+404: pgina negasita
+500: internal error
+
+Header: -host
+	-user-agent: tip de broweser
+
+Cookuri: date stocate in calculator pt a-ti vedea activitatea pe site;
+
+Diferenta HTTP si HTTPS
+
+	HTTP			HTTPS
+ruleaza la suprafata	ruleaza la transport
+default port: 80	   defaul port: 443
+nu are encriptie	    are encriptie
+
+
+
+MAi sunt doua lucruri:
+
+SSH: secure shell
+SSL: secure socket layer
+
+local host= 127.0.0.1
+range retea: 192.168.1.1 la 192.168.1.254
+
+ftp: file transmision protocol
+
+
+URL: uniform resourse locators:protocol, domeniu, cale.
+ex:
+http://youtube.com/chenels <-- cale
+^		^
+|		|
+protocol	domeniu
