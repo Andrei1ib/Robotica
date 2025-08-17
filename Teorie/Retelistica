@@ -1,0 +1,31 @@
+Retea= rutare pachete
+
+Foloseste:
+  -IP(inteernet protocol)
+  -ICMP(Internet control massage protocol)
+  -IGMP(Internet group massage protocol)
+	
+		TCP (transmision control protocol). Verifica daca au ajuns toate datele.	
+	      /
+Transportul: <
+	      \
+		UDP (User datagram protocol). Nu verifica daca au ajuns toate datele.
+
+
+Echipamente: rooter, switch, cabluri...
+Instrumente: Surfshark;
+
+	
+       proxy transparent(nu mascheaza IP-ul utilizatorului)
+      /
+PROXY<- proxy anonim(schimba IP-ul utilizatorului)
+      \
+	proxy invers(proxy pt server)
+
+
+VPN: virtual privat network
+    \
+     conexiune criptata si securizata
+
+MAC: Media Acces Control
+
