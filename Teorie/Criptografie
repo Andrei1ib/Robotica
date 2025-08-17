@@ -1,0 +1,48 @@
+Criptografia consta in:
+	-confidentialitate
+	-integritate (adica mesajul sa fie scris corect)
+	-securitate
+	-non-repudiere
+
+
+
+tipuri de texte:
+	-plaintext(necriptat)
+	-chiptext
+	-cheie
+	-algoritm
+
+
+                simetrica : viteza mare; securitate mica; o singura cheie; ex.:AES(advence encryption standard), DES, 3DES.
+	      /
+Criptografie <
+	      \
+	       asimetrica: viteza mica; securitate ridicata; ex.: RSA(Rivest-shamir-advence), ECC, DSA.
+
+
+Tipuri de criptare:
+	1. Cifrul lui cezar:
+		formula: C=(P+K)%26C
+			P=pozitia literei
+			k=cheie
+
+
+	2. Cifrul lui Vigenere:
+		formula criptari: C=(P+Ki)mod26
+		formula decriptare: P=(C-Ki)mod26
+			P=pozitie initiala;
+			Ki=pozitie litera din cheie
+
+
+
+DES(data encryption standard):
+	Hashing = proces ireversibil de lungime fixa, unic != criptare
+		\ SHA(secure hash algoritm); MD5
+
+
+
+BAZE(!!!1 byte= 8biti):
+	baza64: 24 biti, A-Z, a-z, 0-9
+	baza32:	40 biti, A-Z, 2-7
+	baza16: 4 biti
+	URL
